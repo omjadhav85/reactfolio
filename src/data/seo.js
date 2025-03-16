@@ -2,36 +2,36 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"I am a full-stack developer with expertise in both frontend and backend technologies. I specialize in building scalable, secure, and efficient web applications using modern frameworks and tools.",
+		keywords: ["Omkar", "Omkar Jadhav", "Full-Stack Developer"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"As a full-stack developer, I have experience working with various technologies, including frontend frameworks, backend development, databases, and cloud services. My goal is to create seamless and performant applications.",
+		keywords: ["Omkar", "Omkar Jadhav", "Web Developer"],
 	},
 
 	{
 		page: "articles",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"A collection of my thoughts and insights on web development, software engineering, best practices, and emerging technologies.",
+		keywords: ["Omkar", "Omkar Jadhav", "Software Engineering"],
 	},
 
 	{
 		page: "projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"I have worked on a variety of full-stack projects, ranging from small utilities to large-scale applications. Many of my projects are open-source and available for collaboration.",
+		keywords: ["Omkar", "Omkar Jadhav", "Full-Stack Projects"],
 	},
 
 	{
 		page: "contact",
 		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"If you're interested in working together or discussing new opportunities, feel free to reach out. I'm always open to collaboration and innovative ideas.",
+		keywords: ["Omkar", "Omkar Jadhav", "Contact Omkar"],
 	},
 ];
 

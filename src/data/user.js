@@ -1,28 +1,29 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "Omkar Jadhav",
+		name: "Omkar Jadhav",
+		email: "jadhavomkar85@gmail.com",
+		logo: "../logo.jpg",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/omjadhav85",
+		linkedin: "https://www.linkedin.com/in/omkarmj/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Hey! I'm Omkar Jadhav",
+		roles: [
+			"Frontend Developer",
+			"Full Stack Developer",
+			"Software Engineer",
+		],
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a full stack developer with expertise in both front-end and back-end technologies. I have experience in building scalable, secure, and reliable web applications using frameworks such as Node.js, Express and React. I enjoy solving complex problems and continuously learning new skills. I am passionate about creating high-quality code that adheres to best practices and industry standards. I thrive in dynamic environments and am always seeking new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Omkar Jadhav I live in Sri Lanka, where I design the future.",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
@@ -35,48 +36,66 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "SubtleConnect - Social Media app",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A social media app made with React and Redux where users can connect and stay updated with their friends",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://subtle-connect.netlify.app/",
+			sourceLink: "https://github.com/omjadhav85/subtle-connect",
+			techStack: ["React", "Tailwind CSS", "Redux", "HTML"],
 		},
-
 		{
-			title: "Project 2",
+			title: "Chattify - Chat app",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Real-time chatting app where users can communicate with each other through texts.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://chat-app-e4z2.onrender.com/",
+			sourceLink: "https://github.com/omjadhav85/Chat-app",
+			techStack: [
+				"React",
+				"Chakra UI",
+				"Zustand",
+				"Socket.io",
+				"ExpressJS",
+				"MongoDB",
+				"NodeJS",
+			],
 		},
-
 		{
-			title: "Project 5",
+			title: "Expense Tracker",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A expense tracker which helps you track your expenses keep your finance in check",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://omj-expense-tracker.netlify.app/",
+			sourceLink: "https://github.com/omjadhav85/expense-tracker",
+			techStack: ["React", "Chakra UI", "ExpressJS", "MongoDB", "NodeJS"],
+		},
+		{
+			title: "Sneakoholics - An Ecommerce app",
+			description:
+				"A ecommerce website created using React for sneaker lovers",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			link: "https://sneakoholic.netlify.app/",
+			sourceLink: "https://github.com/omjadhav85/ecomm-react",
+			techStack: ["React", "CSS", "HTML"],
+		},
+		{
+			title: "SubtleVideos - Video Library app",
+			description:
+				"A video library app where anime lovers can watch their favorite anime videos",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			link: "https://subtle-videos.netlify.app/",
+			sourceLink: "https://github.com/omjadhav85/subtle-videos",
+			techStack: ["React", "CSS", "HTML"],
+		},
+		{
+			title: "SubtleNotes - A Note taking app",
+			description:
+				"A note-taking app where users can create and store their notes",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			link: "https://subtle-notes.netlify.app/",
+			sourceLink: "https://github.com/omjadhav85/subtle-notes",
+			techStack: ["React", "CSS", "HTML"],
 		},
 	],
 };

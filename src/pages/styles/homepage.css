@@ -34,6 +34,7 @@
 .homepage-first-area-right-side {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .homepage-image-container {
@@ -44,7 +45,7 @@
 .homepage-image-wrapper {
 	overflow: hidden;
 	border-radius: 10%;
-	transform: rotate(3deg);
+	/* transform: rotate(3deg); */
 }
 
 .homepage-image-wrapper img {
@@ -93,6 +94,11 @@
 	padding-top: 30px;
 }
 
+.role-styles {
+	font-size: 2rem;
+	margin-top: 0.5rem;
+}
+
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;
@@ -109,7 +115,7 @@
 	.homepage-title {
 		width: 100% !important;
 		margin-top: 20px;
-		order: 2;
+		/* order: 2; */
 	}
 
 	.homepage-subtitle {

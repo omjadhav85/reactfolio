@@ -3,25 +3,17 @@ import { Helmet } from "react-helmet";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faTwitter,
-	faGithub,
-	faStackOverflow,
-	faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
-import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+import { ReactTyped } from "react-typed";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -94,6 +86,12 @@ const Homepage = () => {
 								<div className="title homepage-title">
 									{INFO.homepage.title}
 								</div>
+								<ReactTyped
+									strings={INFO.homepage.roles}
+									typeSpeed={60}
+									className="role-styles"
+									loop
+								/>
 
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description}
@@ -104,7 +102,8 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											// src="homepage.jpg"
+											src="programmer.svg"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -114,13 +113,23 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							<a
+							{/* <a
 								href={INFO.socials.twitter}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
 									icon={faTwitter}
+									className="homepage-social-icon"
+								/>
+							</a> */}
+							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -134,26 +143,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a>
+
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
@@ -164,33 +154,6 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-						</div>
-
-						<div className="homepage-projects">
-							<AllProjects />
-						</div>
-
-						<div className="homepage-after-title">
-							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
-							</div>
-
-							<div className="homepage-works">
-								<Works />
-							</div>
 						</div>
 
 						<div className="page-footer">
