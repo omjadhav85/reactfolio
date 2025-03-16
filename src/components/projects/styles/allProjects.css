@@ -16,7 +16,12 @@
 }
 
 @media (max-width: 600px) {
+	.all-projects-container {
+		flex-direction: column;
+		margin: 0;
+	}
+
 	.all-projects-project {
-		width: calc(100% / 2);
+		width: 100%;
 	}
 }

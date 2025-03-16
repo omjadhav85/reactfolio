@@ -83,10 +83,6 @@
 }
 
 @media (max-width: 600px) {
-	.project {
-		height: 300px;
-	}
-
 	.project-links {
 		flex-direction: column;
 	}
